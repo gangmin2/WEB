@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    
+    <main>
+        <div class="week-container">
+            <span class="week" id="Mon">Mon</span>
+            <span class="week" id="Tue">Tue</span>
+            <span class="week" id="Wed">Wed</span>
+            <span class="week" id="Thu">Thu</span>
+            <span class="week" id="Fri">Fri</span>
+            <span class="week" id="Sat">Sat</span>
+            <span class="week" id="Sun">Sun</span>
+        </div>
+
+        <div class="clock-container">
+            <input id="hour" type="text" value="00" readonly="readonly"></input>
+            <span>:</span>
+            <input id="min" type="text" value="00" readonly="readonly"></input>
+            <span>:</span>
+            <input id="sec" type="text" value="00" readonly="readonly"></input>
+        </div>
+    </main>
+
+    <section class="mode buttons-container">
+        <button id="mode-clock">clock</button>
+        <button id="mode-timer">Timer</button>
+        <button id="mode-stopwatch">Stop Watch</button>
+        <button id="mode-alram">Alram</button>
+    </section>
+
+    <section class="timer buttons-container">
+        <button class="start-button" id="timer-start-button">start</button>
+        <button class="reset-button" id="timer-reset-button">reset</button>
+        <button class="stop-button" id="timer-stop-button">stop</button>
+    </section>
+
+    <section class="stopwatch buttons-container">
+        <button class="reset-button" id="stopwatch-reset-button">reset</button>
+        <button class="start-button" id="stopwatch-start-button">start</button>
+        <button class="lap-button" id="stopwatch-lap-button">lap</button>
+        <button class="stop-button" id="stopwatch-stop-button">stop</button>
+    </section>
+
+    <section class="alram buttons-container">
+        <button class="start-button" id="alram-add-button">add</button>
+        <button class="stop-button" id="alram-delete-button">delete</button>
+    </section>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

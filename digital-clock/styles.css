@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'DungGeunMo';
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aliceblue;
+    flex-direction: column;
+}
+main {
+    background-color: #000;
+    color: #aaa;
+    padding: 24px 32px;
+    border: 16px solid #edfaff;
+    border-radius: 12px;
+    box-shadow: 5px 5px 40px;
+    width: 700px;
+}
+.week-container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 28px;
+    font-weight: 900;
+}
+.selected {
+    color: #fff;
+    text-shadow: #74d8ff 1px 0 10px;
+}
+.clock-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    font-weight: 900;
+    font-size: 150px;
+    color: #fff;
+    text-shadow: #74d8ff 1px 0 14px;
+}
+.clock-container input {
+    background-color: #000;
+    outline: #74d8ff;
+    font-weight: 900;
+    font-size: 150px;
+    color: #fff;
+    text-shadow: #74d8ff 1px 0 14px;
+    max-width: 150px;
+}
+
+.buttons-container {
+    margin-top: 50px;
+}
+.buttons-container button {
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 24px;
+    margin: 0 16px;
+    cursor: pointer;
+}
+.timer {
+    display: none;
+}
+.stopwatch {
+    display: none;
+}
+.alram {
+    display: none;
+}
+
+.mode button {
+    background-color: #74d8ff;
+}
+.mode button:hover {
+    background-color: #1dbfff;
+}
+.mode button:focus {
+    background-color: #1dbfff;
+}
+.start-button {
+    background-color: cornflowerblue;
+}
+.reset-button {
+    background-color: gold;
+}
+.stop-button {
+    background-color: tomato;
+}
+.lap-button {
+    background-color: lightgreen;
+}
