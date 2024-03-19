@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer nuing</title>
+
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://kit.fontawesome.com/12a4873eb1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="header-container">
+        <a href="#about" class="logo">nuing</a>
+
+        <div class="header-right">
+            <nav class="nav-container">
+                <ul class="nav-list">
+                    <li>
+                        <a href="#about">about</a>
+                    </li>
+                    <li>
+                        <a href="#skill">skill</a>
+                    </li>
+                    <li>
+                        <a href="#project">project</a>
+                    </li>
+                    <li>
+                        <a href="#activity">activity</a>
+                    </li>
+                    <li>
+                        <a href="til.html">TIL</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- <button class="mode-btn" id="dark-mode-btn">
+                <i class="fa-solid fa-moon" style="color: #FFD43B;"></i>
+            </button>
+            <button class="mode-btn" id="light-mode-btn">
+                <i class="fa-solid fa-sun"></i>
+            </button> -->
+        </div>
+    </header>
+    
+    <main>
+        <!-- 자기소개 -->
+        <section class="about-container" id="about">
+            <h2 class="about-header-text">안녕하세요 😤<br>천방지축 어리둥절 빙글빙글 돌아가는 개발자<br><span class="highlight-text">박경민</span>입니다 !</h2>
+            <ul class="about-info-list">
+                <li>
+                    <i class="fa-solid fa-at"></i>
+                    <a href="mailto:min0115b@gmail.com">min0115b@gmail.com</a>
+                </li>
+                <li>
+                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/gangmin2">gangmin2</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-globe"></i>
+                    <a href="https://velog.io/@min0115b/posts">nuing's velog</a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 기술 스택 -->
+        <section class="skill-container" id="skill">
+            <h2>Skills</h2>
+            <ul class="skill-list">
+                <li>
+                    <div class="skill-overlay">
+                        <span>HTML</span>
+                        <span>익숙함</span>
+                    </div>
+                    <i class="fa-brands fa-html5" style="color: tomato;"></i>
+                </li>
+                <li>
+                    <div class="skill-overlay">
+                        <span>CSS</span>
+                        <span>익숙함</span>
+                    </div>
+                    <i class="fa-brands fa-css3-alt" style="color: cornflowerblue;"></i>
+                </li>
+                <li>
+                    <div class="skill-overlay">
+                        <span>JavaScript</span>
+                        <span>익숙함</span>
+                    </div>
+                    <i class="fa-brands fa-square-js" style="color: #FFD43B;"></i>
+                </li>
+                <li>
+                    <div class="skill-overlay">
+                        <span>React</span>
+                        <span>익숙함</span>
+                    </div>
+                    <i class="fa-brands fa-react" style="color: aqua;"></i>
+                </li>
+                <li>
+                    <div class="skill-overlay">
+                        <span>React Native</span>
+                        <span>익숙함</span>
+                    </div>
+                    <i class="fa-brands fa-react" style="color: aqua;"></i>
+                </li>
+                <li>
+                    <div class="skill-overlay">
+                        <span>Git&GitHub</span>
+                        <span>익숙함</span>
+                    </div>
+                    <i class="fa-brands fa-github"></i>
+                </li>
+                <li>
+                    <div class="skill-overlay">
+                        <span>Slack</span>
+                        <span>익숙함</span>
+                    </div>
+                    <i class="fa-brands fa-slack" style="color: #74C0FC;"></i>
+                </li>
+                <li>
+                    <div class="skill-overlay">
+                        <span>Node JS</span>
+                        <span>사용해 봄</span>
+                    </div>
+                    <i class="fa-brands fa-node" style="color: #68db48;"></i>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 프로젝트 -->
+        <section class="project-container" id="project">
+            <h2>Projects</h2>
+            <ul class="project-list">
+                <li>
+                    <img src="./img/github-finder.png" alt="프로젝트 프리뷰 이미지" width="100%">
+                    <div class="project-info">
+                        <h3>GitHub 사용자 탐색기</h3>
+                        <p>GitHub API를 활용하여 GitHub 사용자를 탐색하는 웹 사이트 프로젝트입니다.</p>
+                        <a href="https://github.com/gangmin2/goorm/tree/main/practice03" target="_blank">GitHub</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/todo.png" alt="프로젝트 프리뷰 이미지" width="100%">
+                    <div class="project-info">
+                        <h3>투두 앱</h3>
+                        <p>자바스크립트의 DOM과 Web Storage API를 사용하여 만든 투두 앱입니다.</p>
+                        <a href="https://github.com/gangmin2/goorm/tree/main/practice02" target="_blank">GitHub</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/digital-clock.png" alt="프로젝트 프리뷰 이미지" width="100%">
+                    <div class="project-info">
+                        <h3>디지털 시계</h3>
+                        <p>자바스크립트를 사용하여 디지털 시계를 구현한 프로젝트입니다.</p>
+                        <a href="https://github.com/gangmin2/web/tree/main/digital-clock" target="_blank">GitHub</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/card.png" alt="프로젝트 프리뷰 이미지" width="100%">
+                    <div class="project-info">
+                        <h3>명함</h3>
+                        <p>HTML과 CSS를 사용하여 만든 간단한 웹 명함 프로젝트입니다.</p>
+                        <a href="https://github.com/gangmin2/web/tree/main/card" target="_blank">GitHub</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 활동 -->
+        <section class="activity-container" id="activity">
+            <h2>Activities</h2>
+            <ul class="activity-list">
+                <li>
+                    <span class="activity-period">2024.02 ~ ing</span><br>
+                    구름톤 트레이닝 풀스택 7회차
+                </li>
+                <li>
+                    <span class="activity-period">2020.05 ~ 2024.02</span><br>
+                    디스이즈 | 앱 개발 동아리
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; developer nuing</p>
+    </footer>
+
+</body>
+</html>

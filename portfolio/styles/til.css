@@ -1,0 +1,107 @@
+body {
+    width: 100%;
+}
+.til-container {
+    display: flex;
+    flex-direction: column;
+    margin: 16px auto;
+    max-width: 500px;
+    width: 90%;
+    background-color: var(--bg-secondary);
+    padding: 24px 32px;
+    border-radius: 16px;
+    box-shadow: var(--box-shadow);
+}
+.til-container h1 {
+    font-family: 'Pretendard-Bold', 'Arial', 'sans-serif';
+    margin-bottom: 16px;
+}
+.til-container textarea {
+    margin-bottom: 16px;
+    border: var(--border-color);
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 18px;
+    resize: none;
+    outline-color: #ffb700;
+    width: 100%;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+.til-container button {
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Pretendard-Bold', 'Arial', 'sans-serif';
+    background-color: var(--bg-primary);
+    color: var(--text-white);
+}
+.til-container button:hover {
+    background-color: #ff9100;
+}
+
+.tils-container {
+    background-color: var(--bg-secondary);
+    margin-top: 100px;
+    padding: 32px 16px;
+}
+.til-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+}
+.til-list-item {
+    padding: 16px 32px;
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+    border: var(--border-color);
+    background-color: var(--bg-color);
+}
+.til-list-item div {
+    margin: 16px 0;
+}
+.til-list-item div p:first-child {
+    font-family: 'Pretendard-Bold', 'Arial', 'sans-serif';
+    margin-bottom: 4px;
+}
+.til-date {
+    color: var(--text-secondary);
+    font-size: 0.9em;
+}
+
+footer {
+    background-color: var(--bg-color);
+}
+
+@media (max-width: 900px) {
+    .til-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .til-list {
+        display: block;
+    }
+    .til-list-item {
+        margin-bottom: 32px;
+    }
+    .til-container h1 {
+        font-size: 18px;
+    }
+    .til-container textarea {
+        font-size: 12px;
+    }
+    .til-container button {
+        font-size: 12px;
+    }
+    .tils-container h2 {
+        font-size: 18px;
+    }
+    .til-list-item div p {
+        font-size: 14px;
+    }
+    .til-list-item div p:nth-child(2n) {
+        font-size: 12px;
+    }
+}
